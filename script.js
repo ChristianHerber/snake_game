@@ -11,6 +11,7 @@ let comida = {
     x: Math.floor(Math.random() * 15 + 1) * box,
     y: Math.floor(Math.random() * 15 + 1) * box
 }
+let pontos = 0;
 
 function criarBG(){
     context.fillStyle = "lightgreen";
@@ -69,6 +70,10 @@ function iniciarJogo(){
     } else {
         comida.x = Math.floor(Math.random() * 15 + 1) * box;
         comida.y = Math.floor(Math.random() * 15 + 1) * box;
+
+        pontos = parseInt(pontos) + 10;
+        document.querySelector(".pontos").innerHTML = pontos;
+        console.log(pontos)
     }
 
     let newHead = {
