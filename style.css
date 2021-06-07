@@ -1,0 +1,14 @@
+body {
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f4f4f4;
+}
+h3 {
+    color: #333;
+    font-size: 3em;
+}
